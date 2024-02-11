@@ -1,0 +1,13 @@
+/* Responsive flexbox columns (stacking on small screen size,
+filling horizontal space on bigger) */
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-child {
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 150px; /*  No stretching: */
+  margin: 5px;
+}

@@ -1,0 +1,5 @@
+/* Responsive sidebar (25% of w, min 150px) */
+.parent {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
